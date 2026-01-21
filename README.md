@@ -6,8 +6,6 @@ CS5610 Web Development - JavaScript & DOM Self Assessment
 
 [https://kashish-219.github.io/airbnb-listings-sf/](https://kashish-219.github.io/airbnb-listings-sf/)
 
-(update this link after deploying)
-
 ## About
 
 This project loads and displays the first 50 Airbnb listings from San Francisco using JavaScript fetch/await. Built for the self-assessment assignment.
@@ -35,17 +33,22 @@ This project loads and displays the first 50 Airbnb listings from San Francisco 
 
 You need to run a server because fetch doesn't work with file:// urls.
 
-**Option 1 - Python (easiest):**
+**Option 1 - Reload extension (used in class):**
+- Install the Reload extension
+- Run `Reload -b` to start http server of the current page
+- Hard refresh with `Cmd + Shift + R` to clear cache if needed
+
+**Option 2 - Python:**
 ```
 cd airbnb_listings2
 python3 -m http.server 8000
 ```
 Then go to http://localhost:8000
 
-**Option 2 - VS Code:**
+**Option 3 - VS Code:**
 Install Live Server extension, right click index.html and click "Open with Live Server"
 
-**Option 3 - Node:**
+**Option 4 - Node:**
 ```
 npx http-server
 ```
@@ -78,4 +81,4 @@ airbnb_listings2/
 
 ## Author
 
-Kashish - Northeastern University CS5610
+Kashish Rahulbhai Khatri - Northeastern University CS5610
