@@ -1,6 +1,3 @@
-// Airbnb Listings App - CS5610 Assignment
-// Kashish
-
 let allListings = [];
 let filteredListings = [];
 let favorites = JSON.parse(localStorage.getItem('airbnb_favs') || '[]');
